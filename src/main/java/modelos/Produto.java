@@ -9,8 +9,8 @@ public class Produto {
     
     private long id;
     private String nome;
-    private float Quantidade;
-    private float PrecoUnitario;
+    private float quantidade;
+    private float precoUnitario;
      
      
     public long getId() {
@@ -30,19 +30,19 @@ public class Produto {
     }
 
     public float getQuantidade() {
-        return Quantidade;
+        return quantidade;
     }
 
-    public void setQuantidade(float Quantidade) {
-        this.Quantidade = Quantidade;
+    public void setQuantidade(float quantidade) {
+        this.quantidade = quantidade;
     }
 
     public float getPrecoUnitario() {
-        return PrecoUnitario;
+        return precoUnitario;
     }
 
     public void setPrecoUnitario(float PrecoUnitario) {
-        this.PrecoUnitario = PrecoUnitario;
+        this.precoUnitario = precoUnitario;
     }
    
     

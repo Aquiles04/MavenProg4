@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class ProdutoControlador {
    
-   @RequestMapping("/produtos")
+   @RequestMapping("/produto")
    public ModelAndView obterProduto(){
        
        ModelAndView mav;
